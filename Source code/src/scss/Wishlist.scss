@@ -1,0 +1,77 @@
+
+
+$brown: #a44f26;
+$lightBrown: #fce2c6;
+@mixin disable-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-ms-user-select: none;
+}
+
+.wishlist_main {
+	font-family: "Domine", serif;
+	min-height: 650px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: $lightBrown;
+	justify-content: center;
+	align-items: center;
+}
+
+.wishlist_main_emptymsgwrap {
+	position: relative;
+	min-height: 350px;
+	max-width: 100%;
+	width: 700px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+	margin-top: 70px;
+	.wishlist_m_wl_ftitle {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	img {
+		max-height: 150px;
+		width: auto;
+		margin: 30px;
+	}
+	.wishlist_m_wl_stitle {
+		font-size: 28px;
+		margin-bottom: 20px;
+	}
+	.wishlist_m_wl_ttitle {
+		font-size: 12px;
+		opacity: 0.7;
+		a,
+		link {
+			text-decoration: none;
+			&:hover {
+				text-transform: none;
+			}
+		}
+	}
+	.wishlist_rettoshopbtn {
+		width: 150px;
+		height: 45px;
+		border: solid $brown;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 5px;
+		margin: 30px;
+		color: #000;
+		font-size: 14px;
+		&:hover {
+			text-decoration: none;
+			opacity: 0.7;
+		}
+	}
+}
+

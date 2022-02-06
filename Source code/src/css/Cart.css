@@ -1,0 +1,64 @@
+.cart_main {
+  font-family: "Domine", serif;
+  min-height: 650px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fce2c6;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_main_emptymsgwrap {
+  position: relative;
+  min-height: 350px;
+  max-width: 100%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.cart_main_emptymsgwrap .cart_m_emptymsgwr_ftitle {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.cart_main_emptymsgwrap img {
+  max-height: 150px;
+  width: auto;
+  margin: 30px;
+}
+.cart_main_emptymsgwrap .cart_m_emptymsgwr_stitle {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.cart_main_emptymsgwrap .cart_m_emptymsgwr_ttitle {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.cart_main_emptymsgwrap .cart_m_emptymsgwr_ttitle a, .cart_main_emptymsgwrap .cart_m_emptymsgwr_ttitle link {
+  text-decoration: none;
+}
+.cart_main_emptymsgwrap .cart_m_emptymsgwr_ttitle a:hover, .cart_main_emptymsgwrap .cart_m_emptymsgwr_ttitle link:hover {
+  text-transform: none;
+}
+.cart_main_emptymsgwrap .cart_rettoshopbtn {
+  width: 150px;
+  height: 45px;
+  border: solid #a44f26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 30px;
+  color: #000;
+  font-size: 14px;
+}
+.cart_main_emptymsgwrap .cart_rettoshopbtn:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
